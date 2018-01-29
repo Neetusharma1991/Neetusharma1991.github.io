@@ -3,8 +3,6 @@ body{
     font-size:16px;
     color:rgb(63, 7, 7);
 }
-
-
 .fill-screen{
     padding-top: 50px;
     background-size: cover;
@@ -28,11 +26,8 @@ body{
     text-align: center;
 
 }
-
 .navbar{
-    margin-bottom: 0px;
-    
-    
+    margin-bottom: 0px;  
 }
 a{
     font-weight: bold;
@@ -54,14 +49,14 @@ a{
 .title{
     position:absolute;
     padding:20px;
-    top: 50%; 
+    top: 60%; 
     left:50%;
     margin-right:-50%;
     transform:translate(-50%,-50%);
     -webkit-transform:translate(-50%,-50%);
 }
 .first-name{
-    margin-top:150px;
+    margin-top:160px;
     color:#fff;
     font-size:300%;
 
@@ -81,16 +76,12 @@ a{
 .info{
     font-size: 25px;
     color:black;
-   
-   
     height:30%;
     text-align: justify;
     border:1px solid black;
-
 }
 .table-custom {
-   
-    font-size: 20px; 
+   font-size: 20px; 
      padding:10px;
      height:30%;
 }
@@ -174,6 +165,11 @@ a{
 #education{
     margin-bottom: 50px;
 }
+@media(max-width:315px){
+    .fixed-attachment{
+        background-attachment: scroll;
+    }
+}
 @media(max-width:788px){
     .fixed-attachment{
         background-attachment: scroll;
@@ -188,8 +184,7 @@ a{
     margin-bottom: 50px;
   }
 
-
-  .big img{
+.big img{
     -webkit-transition:all 0.5s ease;}
 
 .big img:hover{
