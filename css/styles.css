@@ -125,6 +125,7 @@ a{
     width:100%;
     height: 100%;
     backface-visibility: hidden;
+    padding:20px;
 }
 .front {
     background:#fcafcf;
@@ -137,8 +138,6 @@ a{
 .card:hover{
     transform:rotateY(180deg);
 }
-
-
 .text-banner{
     text-align: center;
     margin:30px 20px;
@@ -164,11 +163,6 @@ a{
 }
 #education{
     margin-bottom: 50px;
-}
-@media(max-width:315px){
-    .fixed-attachment{
-        background-attachment: scroll;
-    }
 }
 @media(max-width:788px){
     .fixed-attachment{
