@@ -144,7 +144,7 @@ a{
 }
 .box{
     box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24),0 0 4px 0 rgba(0,0,0,0.14);
-    max-width:320px;
+    max-width:330px;
     padding:30px;
     box-sizing: border-box;
     margin:20px;
@@ -152,7 +152,7 @@ a{
 }
 .box-slim{
     padding:30px;
-    max-width:350px;
+    max-width:360px;
 }
 .my-work{
     margin-bottom: 50px;
