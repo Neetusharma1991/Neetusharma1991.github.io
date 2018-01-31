@@ -75,18 +75,14 @@ a{
     display:inline;
 }
 .info{
-    font-size: 25px;
     color:black;
-   
-   
     height:30%;
     text-align: justify;
     border:1px solid black;
 
 }
 .table-custom {
-   
-    font-size: 20px; 
+   font-size: 20px; 
      padding:10px;
      height:30%;
 }
